@@ -1,0 +1,362 @@
+
+
+body{
+    margin: 0;
+}
+header h4, nav a, .intro-info h1, p , h3{
+    color: #3A3A3A;
+}
+
+/* --------------
+   Navigation bar
+   -------------- */
+header .fa-bars{
+    display: none;
+}
+header{
+    margin: 40px 7% auto 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    column-gap: 36px;
+}
+nav a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* ------------
+   Introduction
+   ------------*/
+.container{
+    margin: 30px 7% auto 7%;
+}
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* column-gap: 10%; */
+}
+.intro-info h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3.2em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.intro-info p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 16px 0 32px 0;
+}
+.intro-btn ,.featured-btn{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    background-color: #e21865;
+}
+.intro-btn{
+    border-radius: 25px;
+    padding: 10px 25px;
+}
+.intro-image{
+    position: relative;
+}
+/* .intro-image{
+    width: 600px;
+    height: 500px;
+    position: relative;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+} */
+.intro-image .img-camera{
+    /* width: 440px;
+    height: 414px; */
+    position: absolute;
+    top: 35px;
+    left: 10px;
+}
+
+/* -----------------
+E-commerce site Logo
+-------------------- */
+.logo-container{
+    margin: 40px 3% auto 3%;
+    padding: 0 20px 0 20px;
+}
+.logos{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0px;
+}
+
+/* ---------------
+Popular collection
+------------------ */
+.collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin: 50px 5% 0 5%;
+}
+.collections>h3{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 100px;
+    font-size: 28px;
+}
+.item{
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px lightgray;
+}
+.item-info h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.item-info h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 0 7px 0;
+    color: #3A3A3A;
+}
+.rating img{
+    height: 10px;
+    width: 10px; 
+}
+.rating span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 5px;
+}
+.item-info p{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 3px 0 0 0;
+    color: #7a7a7a;
+    text-align: left;
+}
+.collections .item-btn{
+    display: flex;
+    justify-content: end;
+    margin: 50px 5% 50px 0;
+}
+.item-btn a{
+    text-decoration: none;
+    color: #e21865;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* --------------
+Featured Products
+----------------- */
+.featured{
+    display: flex;
+    column-gap: 90px;
+    margin: 100px 2% auto 2%;
+}
+.featured-info h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    color: #3A3A3A;
+}
+.featured-info p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 25px auto;
+    color: #7a7a7a;
+}
+.featured-btn{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding: 8px 25px;
+    font-size: 16px;
+}
+
+/* --------
+   footer
+--------- */
+footer{
+    height: 267px;
+    margin-top: 100px;
+    background-color: rgb(0, 0, 36);
+}
+footer .last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer .last h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 3px;
+    color: #ffffff;
+}
+footer .last p{
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 1%;
+    color: #ffffffc7;
+}
+.social-icon{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    column-gap: 16px;
+}
+.social{
+    color: #ffffff;
+    font-size: 18px;
+    padding: 9px 7px 9px 9px;
+    background-color: #7a7a7a4d;
+    border-radius: 50%;
+}
+
+/* ----------------
+   media quaries
+---------------- */
+@media only screen and (max-width:688px) {
+    header .fa-bars{
+        display: block;
+        font-size: 24px;
+    }
+    header nav .fa-opencart{
+        font-size: 24px;
+    }
+    nav a ,.fa-magnifying-glass{
+        display: none;
+    }
+    .intro{
+        flex-direction: column-reverse;
+    }
+    .intro-info{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .intro-info h1, p{
+        text-align: center;
+    }
+    .intro-info p{
+        font-size: 1.7em;
+    }
+    .intro-info p br{
+        display: none;
+    }
+    .intro-btn{
+        font-size: 2em;
+        border-radius: 41px;
+        font-weight: 500;
+    }
+    .intro-image .circle{
+        width: 100%;
+    }
+    .intro-image .img-camera{
+        width: 90%;
+    }
+    hr{
+        display: none;
+    }
+    .logo-container{
+        padding: 0;
+    }
+    .logos{
+        display: grid;
+        grid-template-columns: repeat(8 ,1fr);
+        row-gap: 15px;
+        align-items: center;
+    }
+    .logos img{
+        width: 70%;
+    }
+    .logo-1{
+        grid-column: 1 / span 2;
+    }
+    .logo-2{
+        grid-column: 3 / span 2;
+    }
+    .logo-3{
+        grid-column: 5 / span 2;
+    }
+    .logo-4{
+        grid-column: 7 / span 2;
+    }
+    .logo-5{
+        grid-column: 2 / span 2;
+        grid-row: 2;
+    }
+    .logo-6{
+        grid-column: 4 / span 2;
+        grid-row: 2;
+    }
+    .logo-7{
+        grid-column: 6 / span 2;
+        grid-row: 2;
+    }
+    .collection{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .collection .item{
+        margin: 0 19%;
+    }
+    .item>img{
+        width: 100%;
+    }
+    .item-btn a{
+        margin-right: 17%;
+    }
+    .featured{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .featured-info h2, p{
+        text-align: center;
+    }
+    .featured-info h2{
+        font-size: 3em;
+        margin-bottom: 10px;
+    }
+    .featured-info p{
+        margin-top: 0;
+        font-size: 2em;
+        margin-bottom: 0;
+    }
+    .featured-info p br{
+        display: none;
+    }
+    .featured-btn-container{
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+    footer .last h4{
+        text-align: center;
+    }
+}
